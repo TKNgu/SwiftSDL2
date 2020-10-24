@@ -1,0 +1,5 @@
+module SwiftSDL2 [system] {
+  header "/usr/local/include/SDL2/SDL.h"
+  link "/usr/local/lib/libSDL2.so"
+  export *
+}
