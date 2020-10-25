@@ -1,6 +1,7 @@
 module SwiftSDL2 [system] {
   header "/usr/local/include/SDL2/SDL.h"
   header "/usr/local/include/SDL2/SDL_image.h"
+  header "/usr/local/include/SDL2/SDL_render.h"
   link "/usr/local/lib/libSDL2.so"
   link "/usr/local/lib/libSDL2_image.so"
   export *
