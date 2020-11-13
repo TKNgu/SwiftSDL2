@@ -4,6 +4,7 @@ module SwiftSDL2 [system] {
   header "/usr/local/include/SDL2/SDL_render.h"
   header "/usr/local/include/SDL2/SDL_ttf.h"
   header "/usr/local/include/chipmunk/chipmunk.h"
+  header "/usr/local/include/chipmunk/chipmunk_structs.h"
   link "/usr/local/lib/libSDL2.so"
   link "/usr/local/lib/libSDL2_image.so"
   link "/usr/local/lib/libSDL2_ttf.so"
